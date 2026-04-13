@@ -1,3 +1,6 @@
+[workspace]
+members = [".", "tests/crate"]
+
 [package]
 name = "zed_apex"
 version = "0.1.0"

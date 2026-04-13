@@ -1,0 +1,3 @@
+FIND {test}
+IN ALL FIELDS
+RETURNING Account(Id, Name), Contact(Id, Name)

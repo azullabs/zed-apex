@@ -1,0 +1,12 @@
+[package]
+name = "zed_apex_tests"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+tree-sitter = "0.24"
+tree-sitter-sfapex = "2.4.0"
+streaming-iterator = "0.1"
+toml = "0.8"
+serde = { version = "1.0", features = ["derive"] }

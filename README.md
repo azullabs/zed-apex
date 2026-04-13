@@ -57,7 +57,7 @@ cargo build --target wasm32-wasip1 --release
 Run tests:
 
 ```sh
-cargo test -p zed_apex_tests
+cargo test --manifest-path tests/crate/Cargo.toml
 ```
 
 ## License

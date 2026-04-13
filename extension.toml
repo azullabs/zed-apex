@@ -1,0 +1,26 @@
+id = "apex"
+name = "Apex"
+version = "0.1.0"
+schema_version = 1
+authors = ["Apex Extension Contributors"]
+description = "Salesforce Apex, SOQL, and SOSL language support for Zed"
+repository = "https://github.com/azullabs/zed-apex"
+
+[grammars.apex]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+path = "apex"
+
+[grammars.soql]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+path = "soql"
+
+[grammars.sosl]
+repository = "https://github.com/aheber/tree-sitter-sfapex"
+rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+path = "sosl"
+
+[language_servers.apex-jorje]
+name = "Apex Language Server"
+languages = ["Apex"]

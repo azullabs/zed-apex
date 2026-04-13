@@ -1,0 +1,6 @@
+SELECT Id, Name, Account.Name, CreatedDate
+FROM Contact
+WHERE Account.Industry = 'Technology'
+    AND CreatedDate = LAST_N_DAYS:30
+ORDER BY Name ASC
+LIMIT 100

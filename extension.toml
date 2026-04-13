@@ -17,7 +17,3 @@ path = "soql"
 [grammars.sosl]
 repository = "file://vendor/tree-sitter-sfapex"
 path = "sosl"
-
-[language_servers.apex-jorje]
-name = "Apex Language Server"
-languages = ["Apex"]

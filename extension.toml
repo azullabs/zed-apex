@@ -7,18 +7,15 @@ description = "Salesforce Apex, SOQL, and SOSL language support for Zed"
 repository = "https://github.com/azullabs/zed-apex"
 
 [grammars.apex]
-repository = "https://github.com/aheber/tree-sitter-sfapex"
-rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+repository = "file://vendor/tree-sitter-sfapex"
 path = "apex"
 
 [grammars.soql]
-repository = "https://github.com/aheber/tree-sitter-sfapex"
-rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+repository = "file://vendor/tree-sitter-sfapex"
 path = "soql"
 
 [grammars.sosl]
-repository = "https://github.com/aheber/tree-sitter-sfapex"
-rev = "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+repository = "file://vendor/tree-sitter-sfapex"
 path = "sosl"
 
 [language_servers.apex-jorje]

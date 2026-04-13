@@ -1,1 +1,3 @@
 /target
+/tests/crate/target
+/tests/crate/Cargo.lock
